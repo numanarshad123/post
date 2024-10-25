@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* background-color: black; */
+}
+
+.post-container {
+  border: 2px solid blue;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+.post-container > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.post-photo {
+  width: 100%;
+  background-color: white;
+}
+.dp {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: white;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.post-user-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+}
+
